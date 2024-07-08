@@ -1,2 +1,3 @@
-# ESP32-ws2811
-ws2811 LED strip driver
+# LED Strip Driver
+
+This driver is designed for addressable LEDs like WS2811, where each LED is controlled by a single data line.
