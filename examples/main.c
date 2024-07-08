@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
-#include <led_strip.h>
+#include <ws2811.h>
 
 #define LED_STRIP_LENGTH 240
 
