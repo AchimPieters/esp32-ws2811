@@ -2,7 +2,7 @@
 
 ## What it does
 
-Based on a NEO-Pixel WS2811, RGB LED strip. ON/OFF, Brightness, HUE and Saturation.
+Based on a WS2811 RGB LED strip. ON/OFF, Brightness, HUE and Saturation.
 
 ## Wiring
 
