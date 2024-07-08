@@ -23,7 +23,7 @@
 
  **/
 
-#include "led_strip.h"
+#include "ws2811.h"
 #include <string.h>
 #include <stdlib.h>
 
