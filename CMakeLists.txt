@@ -1,3 +1,7 @@
-cmake_minimum_required(VERSION 3.16)
-include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(ws2811_led_strip)
+idf_component_register(
+    SRCS "ws2811.c"
+    REQUIRES driver
+    INCLUDE_DIRS "."
+)
+
+target_compile_options(${COMPONENT_LIB} PRIVATE -DESP_IDF)
