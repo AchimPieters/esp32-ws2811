@@ -43,11 +43,13 @@ This driver is designed for addressable RGBIC LED's the WS2811, where the LED's 
 #include <freertos/task.h>
 #include <ws2811.h>
 
-#define LED_STRIP_LENGTH 240
+#define LED_STRIP_LENGTH 3
+#define GPIO_NUM 5
+
 
 void app_main(void)
 {
-    led_strip_t *strip = led_strip_init(RMT_CHANNEL_0, GPIO_NUM_5, LED_STRIP_LENGTH);
+    led_strip_t *strip = led_strip_init(RMT_CHANNEL_0, GPIO_NUM, LED_STRIP_LENGTH);
 
     if (!strip) {
         printf("Failed to initialize LED strip\n");
