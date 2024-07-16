@@ -7,7 +7,7 @@ This driver is designed for addressable RGBIC LED's the WS2811, where the LED's 
 
 # Hardware Setup
 
-
+![Default setup.](https://github.com/AchimPieters/esp32-ws2811/blob/main/images/scheme.png)
 
 
 # Example
